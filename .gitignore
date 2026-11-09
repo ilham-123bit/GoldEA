@@ -1,0 +1,30 @@
+# Compiled artifacts and Python caches
+*.ex5
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.py[cod]
+__pycache__/
+
+# Local MT5 diagnostic output; keep intentional fixture CSVs trackable
+*.csv
+*.log
+!tests/fixtures/*.csv
+
+# Local credentials and private keys
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating-system temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
